@@ -16,7 +16,7 @@ namespace Tyuiu.PoznyakIA.Sprint3.Task1.V2.Lib
             double multSeries = 1;
             while (startValue <= stopValue)
             {
-                multSeries = multSeries + Math.Sin(startValue) * (1 / 2);
+                multSeries = multSeries + (Math.Sin(startValue) * (1 / 2));
                 startValue++;
             }
             return Math.Round(multSeries, 3);
