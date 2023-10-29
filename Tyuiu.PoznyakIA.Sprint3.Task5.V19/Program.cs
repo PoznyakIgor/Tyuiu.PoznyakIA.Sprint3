@@ -49,7 +49,7 @@ namespace Tyuiu.PoznyakIA.Sprint3.Task5.V19
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Сумма ряда " + ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
+            Console.WriteLine("Сумма ряда " + ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2));
 
             Console.ReadKey();
         }
